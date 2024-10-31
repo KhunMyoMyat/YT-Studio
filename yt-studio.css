@@ -1,0 +1,140 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #e7e5e5;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    width: 340px;
+    margin: 20px;
+}
+
+.box {
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.boxTitle {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.thumbnailContainer {
+    margin-bottom: 15px;
+
+}
+
+.thumbnail {
+    border-radius: 5px;
+    width: 100%;
+}
+
+.performance {
+    margin-bottom: 10px;
+}
+
+.op {
+    opacity: 0.5;
+}
+
+.statContainer {
+    margin-bottom: 20px;
+}
+
+.stat {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+
+.link {
+    color: #1C5FD4;
+    margin-top: 20px;
+}
+
+.comments {
+    margin-top: 15px;
+}
+/* second column */
+
+.secondcolumntitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shortvd {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.fs {
+    font-size: 13px;
+}
+
+.creator {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.ch {
+    margin-top: 19px;
+}
+
+.fa-angle-left {
+    margin-right: 20px;
+}
+
+/* third column */
+.subcount {
+    font-size: 30px;
+}
+
+.cg {
+    color: green;
+}
+
+.divider {
+    height: 1px;
+    background: lightgray;
+    margin: 25px 0;
+}
+
+.summaryContainer {
+    margin-bottom: 10px;
+}
+
+.summary {
+    margin-bottom: 10px;
+}
+
+.summarystat {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.playlist {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.overflowEllipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ffs {
+    font-size: 15px;
+    margin-left: 8px;
+}
